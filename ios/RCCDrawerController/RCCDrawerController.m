@@ -48,7 +48,7 @@ UIViewController *rightViewController = nil;
     [self setAnimationTypeWithName:props[@"animationType"]];
     
     // default is all MMOpenDrawerGestureModeAll and MMCloseDrawerGestureModeAll
-    self.openDrawerGestureModeMask = MMOpenDrawerGestureModeAll;
+    self.openDrawerGestureModeMask = MMOpenDrawerGestureModeBezelPanningCenterView;
     self.closeDrawerGestureModeMask = MMCloseDrawerGestureModeAll;
     
     NSNumber *disableOpenGesture = props[@"disableOpenGesture"];
